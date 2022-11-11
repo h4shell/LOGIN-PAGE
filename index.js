@@ -1,6 +1,6 @@
 const express = require("express");
 const session = require("express-session");
-dotenv = require('dotenv').config();
+require('dotenv').config();
 
 const app = express();
 const WebPort = 8080;
@@ -56,7 +56,7 @@ app.post("/login", (req, res) => {
   }
 });
 
-app.get("/home", function(req, res) {
+app.get("/home", function (req, res) {
   // If the user is loggedin
   if (req.session.loggedin) {
     // Output username
