@@ -1,4 +1,11 @@
 {
+  "name": "login-page",
+  "version": "0.0.1",
+  "description": "Application Description",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js"
+  },
   "dependencies": {
     "dotenv": "^16.0.3",
     "ejs": "^3.1.8",
@@ -6,5 +13,18 @@
     "express-session": "^1.17.3",
     "mysql": "^2.18.1",
     "node-fetch": "^3.2.10"
-  }
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h4shell/LOGIN-PAGE.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/h4shell/LOGIN-PAGE/issues"
+  },
+  "homepage": "https://github.com/h4shell/LOGIN-PAGE#readme"
 }
